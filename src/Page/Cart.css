@@ -1,0 +1,53 @@
+.carttitlebox{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 38%;
+}
+.carttitlebox img{
+    width: 400px;
+}
+.Cartbigbox img{
+    width:200px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.cartbox{
+    height: 200px;
+    border-radius: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.paymentbox{
+    border-top:3px solid #800606 ;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 30px;
+    margin-top: 80px;
+}
+.buybox{
+    border: 3px solid #800606;
+    margin-bottom: 30px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+}
+.close {
+    position: flex;
+    width: 15px;
+    height: 15px;
+    opacity: 0.3;
+  }
+  .close:before, .close:after {
+    position: absolute;
+    content: ' ';
+    height: 30px;
+    width: 5px;
+    background-color: #000000;
+  }
+  .close:before {
+    transform: rotate(45deg);
+  }
+  .close:after {
+    transform: rotate(-45deg);
+  }
+  

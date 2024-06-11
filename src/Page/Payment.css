@@ -1,0 +1,43 @@
+.allpayment{
+    /*margin-left: 70px;*/
+    margin-top: 60px;
+    width: 300px;
+}
+.carttitlebox{
+    width: 500px;
+    margin-left: 0px;
+}
+.carttitlebox{
+    padding-left: 50px;
+}
+.inpayment{
+    margin-bottom: 30px;
+}
+.inpayment button{
+    margin-left: 40px;
+    color: #fff;
+    background: #800606;
+    border: #fff;
+    width: 130px;
+    height: 50px;
+    font-size: 20px;
+
+}
+.paymenttitle{
+    text-align: center;
+    border-bottom: 3px solid #800606;
+    padding-bottom: 20px;
+    width: 500px;
+    margin-left: 520px;
+    margin-top: 20px;
+}
+.paymentcart-grid{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: #fff4e1;
+    margin-right: 400px;
+    margin-left: 400px;
+    height: 500px;
+    border-radius: 30px;
+}
